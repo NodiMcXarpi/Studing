@@ -1,0 +1,17 @@
+.xerequinha{
+    background: aquamarine;
+    color: purple;
+    font-size: 35px;
+}
+.caixa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input, button:-ms-keyboard-active{
+    color:aqua;
+    background-color: purple;
+}
+
