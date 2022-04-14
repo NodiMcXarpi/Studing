@@ -1,0 +1,30 @@
+ body {background-color: antiquewhite;
+     align-items: center;
+    }
+  #buy{color: blue;
+    margin: 10px 30px 10px 450px;
+      font-size: 70px;
+      background-color: rgb(235, 6, 204);
+      border-radius: 50%;
+  }
+  #confirm{
+      margin-left: 700px;
+      color: rgb(127, 197, 255);
+      font-family: fantasy;
+      font-size: 40px;
+      font-size: 40px;
+      margin-left: 100px;
+  }
+
+  #head {
+      background-color: black;
+      color: beige;
+      margin-left: 250px;
+      margin-right: 170px;
+  }
+
+  .container{
+    display: flex;
+    
+    justify-content: flex-end;
+  }
