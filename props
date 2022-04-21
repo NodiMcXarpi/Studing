@@ -1,0 +1,15 @@
+// props é basicamente usado para passar informações de um componente para o outro, exemplo
+
+  return (
+   <>
+   <Dados canal='Nodi Mc' iutubi='Iutibiiull' cursos='Formadaço em muita coisa'/>
+   
+   no componente filho:
+   
+   import React from "react";
+export default function Data(oloco){
+    return(
+        <>
+        <p>Canal: {oloco.canal}</p>
+        
+        
