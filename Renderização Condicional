@@ -1,0 +1,28 @@
+//RENDERIZAÇÃO CONDICIONAL EM RECORRENCIA DA HORA
+import React from 'react'
+import './App.css'
+
+
+
+
+export default function App() {
+const greetings = ()=>
+{
+  const hour = new Date().getHours()
+  if (hour >= 0 && hour < 13)
+  return <p>Good Morning</p>
+  else if (hour >= 13 && hour < 18)
+  return <p>Bah Tardi</p>
+  else 
+  return <p>Bah noiti</p>
+}  
+ 
+
+
+  return (
+   <>
+   <p>Respeita o CFB ai caralho{greetings()}</p>
+   </>
+  );
+}
+
