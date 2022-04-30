@@ -1,0 +1,33 @@
+// Basicamente é utilizado para indicar a posição de um ítem dentro de um array, porém pode ser usado para retornar strings, usando o método condicional if, por exemplo:
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel="stylesheet" href="./fak.css">
+    <title>Page Title</title>
+    
+
+    
+</head>
+<body>
+   <script>
+     var backpack =[ ], pos;
+     backpack.push('faca')
+     backpack.push('Lenha' + '<br>')
+     backpack.push('Ball ')
+     backpack.push('glass')
+     
+
+  pos = backpack.indexOf('glass');
+  if(pos < 0){
+    document.write("Not found item")
+  }else{
+    document.write('Item is ready, he is in the position: ' + pos)
+  }    
+   </script>
+  
+   
+</body>
+
+</html>
